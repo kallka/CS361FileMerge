@@ -1,3 +1,4 @@
+# Version 2.1 (Updated from UI)
 # CS361FileMerge
 Command Line File Merging Project for CS361
 
