@@ -1,0 +1,253 @@
+# Message 1: 
+# (Immediately after program begins...HOME MESSAGE)
+
+Welcome to File Merger HOME! 
+...
+Please select an option:
+...
+**Adding contacts saves time when sharing documents!
+Press 1: To add, manage, or search contacts.
+Press 2: To merge data files.
+Press 3: To exit.
+
+----
+
+# Message 2A: 
+# (Contacts Home)
+
+You pressed 1 to add, manage, or search contents.
+...
+Would you like to ...?
+Press 1: To add a new contact.
+Press 2: To find, edit or delete a contact. 
+Press *: To return to HOME.
+
+----
+
+# Message 2B: 
+# (File Merge Contacts Home)
+
+You pressed 2 to merge data files.
+Please enter: 
+    - the location of each spreadsheet,
+    - a location and title for the new file,
+    - and press enter to merge files:
+    - Example Location Spreadsheet1:  /documents/file1
+    - Example New Title and Location: /documents/projectfile1/newfile]
+** To cancel and return to HOME, enter * in each field.
+(Use up or down arrow to navigate between entries.)
+...
+Location Spreadsheet1: 
+Location Spreadsheet2:
+New Title and Location: 
+[Press "enter" to accept.]
+
+# Message 2B-1: 
+# (Merging Spreadsheets Success)
+
+Success! Your new merged spreadsheet is called [xxxxx.xlsx] and is located at [/Project1/files1/xxxxx.xlsx].
+Press 1: To merge more files.
+Press *: To return to HOME.
+
+# Message 2B-2: 
+# (Merging Spreadsheets Failure)
+
+Uh-oh! Something went wrong. Would you like to:
+Press 1: To try again.
+Press *: To return to HOME.
+
+---
+
+# Message 3A: 
+# (Add Contact Entry Fields)
+
+You pressed 1 to add a new contact.
+Please enter information in the fields, below.
+(Press enter to submit information.) 
+(Fields may be left blank ... just don't leave all fields blank.)
+(Use up or down arrow to navigate between entries.)
+...
+    First Name:
+    Last Name:
+    Title:
+    Organization:
+    Project:
+    Email:
+    Phone:
+[Press "enter" to accept.]
+...or...
+Press *: To return to HOME.
+
+# Message 3A-1:
+# (Add Contact Success.)
+
+Contact entered!
+    ID: 27
+    First Name: Mr.
+    Last Name: Cat
+    Title: Head of Everything
+    Organization: Feline Research
+    Project: Tail Length
+    Email: cat@felineresearch.com
+    Phone: xxx-xxx-xxxx
+Would you like to:
+Press 1: To enter another contact.
+Press *: To return to HOME.
+
+# Message 3A-2:
+# (Add Contact Failure.)
+
+Oh dear...something went wrong.
+Press 1: To try again.
+Press *: To return to HOME.
+
+-----
+
+# Message 3B: 
+# (How to Search for Contacts)
+
+You pressed 2 find, edit or delete a contact.
+First, please search by entering information in the fields, below.
+You do not need to fill in every field.
+If all fields are left blank, all contacts will appear.
+... Search BY ...
+    First Name:
+    Last Name:
+    Organization:
+    Project:
+[Press "enter" to accept.]
+...or...
+Press *: To return to HOME.
+
+----
+
+# Message 4A: 
+# (Contact Search Success.)
+
+2 match(es) were found! Use ID numbers and Edit/Delete options below to update contacts.
+...
+    ID: 1
+    First Name: Bob
+    Last Name: Sandegarr
+    Title: Director of Research
+    Organization: A University
+    Project: Something Neat
+    Email: bobs@university.com
+    Phone: xxx-xxx-xxxx
+    ... and ...
+    ID: 7
+    First Name: Bob
+    Last Name: Victory
+    Title: Research Tech
+    Organization: A College
+    Project: Something Neat
+    Email: bobv@college.com
+    Phone: xxx-xxx-xxxx
+...
+Please enter ID # to edit or delete in fields below. 
+(Delete can accept a list. Example Delete: 1,2,3)
+    Edit:
+    Delete:
+[Press "enter" to accept.]
+...or...
+Press *: To return to HOME.
+
+
+# Message 4B: 
+# (Contact Search Failure.)
+
+Oh no! No matches found for:
+    First Name: Bob
+...
+Please try again:
+... Search BY ...
+    First Name:
+    Last Name:
+    Organization:
+    Project:
+[Press "enter" to accept.]
+...or...
+Press *: To return to HOME.
+
+---
+
+# Message 5A:
+# (Edit Contact.)
+
+You selected contact ID# [7] to edit.
+(Use arrow keys to navigate between fields.)
+(Press enter to accept changes.)
+    First Name: Bob
+    Last Name: Sandegarr
+    Title: Research Tech
+    Organization: A College
+    Project: Something Neat
+    Email: bobv@college.com
+    Phone: xxx-xxx-xxxx
+[Press "enter" to accept.]
+...or...
+Press *: To return to HOME.
+
+# Message 5A-1:
+# (Edit Contact Success.)
+
+Contact entered!
+    ID: 7
+    First Name: Bob
+    Last Name: Cat
+    Title: Head of Everything
+    Organization: Feline Research
+    Project: Tail Length
+    Email: bob@felineresearch.com
+    Phone: xxx-xxx-xxxx
+Would you like to:
+Press 1: To find, edit, or delete more contacts.
+Press *: To return to HOME.
+
+# Message 5A-2:
+# (Edit Contact Failure.)
+
+Oh dear...something went wrong.
+Press 1: To find, edit, or delete more contacts.
+Press *: To return to HOME.
+
+----
+
+# Message 5B:
+# (Delete Contact.)
+
+Are you sure you want to delete contact ID# [7]?
+    First Name: Bob
+    Last Name: Sandegarr
+    Title: Research Tech
+    Organization: A College
+    Project: Something Neat
+    Email: bobv@college.com
+    Phone: xxx-xxx-xxxx
+[Press "enter" to accept.]
+...or...
+Press1: To cancel and return to Contact Home.
+Press *: To return to HOME.
+
+# Message 5B-1:
+# (Delete Contact Success.)
+
+This contact was deleted:
+    ID: 7
+    First Name: Bob
+    Last Name: Sandegarr
+    Title: Research Tech
+    Organization: A College
+    Project: Something Neat
+    Email: bobv@college.com
+    Phone: xxx-xxx-xxxx
+Would you like to:
+Press 1: To find, edit, or delete more contacts.
+Press *: To return to HOME.
+
+# Message 5B-2:
+# (Delete Contact Failure.)
+
+Oh dear...something went wrong.
+Press 1: To find, edit, or delete more contacts.
+Press *: To return to HOME.
