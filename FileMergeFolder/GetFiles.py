@@ -8,8 +8,8 @@
 # --------------------------- #
 # --------- IMPORTS  -------- #
 # --------------------------- #
-from FileMergeProject.Messages import MessagesError
-import FileMergeProject.FileMergeFiles.MergeFiles
+from ..MessagesFolder import MessagesError
+import MergeFiles
 
 
 # --------------------------- #
@@ -98,7 +98,7 @@ def get_file_info():
 
     # merge files or try again
     if accept is True:
-        FileMergeProject.FileMergeFiles.MergeFiles.merge_files(file_list)
+        MergeFiles.merge_files(file_list)
     else:
         print(MessagesError.general_error())
 

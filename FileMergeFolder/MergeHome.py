@@ -8,7 +8,7 @@
 # --------------------------- #
 # --------- IMPORTS  -------- #
 # --------------------------- #
-import FileMergeProject.FileMergeFiles.GetFiles
+import GetFiles
 
 
 # --------------------------- #
@@ -28,5 +28,5 @@ def home_choice():
     if int(choice) == 3:
         return
     else:
-        FileMergeProject.FileMergeFiles.GetFiles.get_file_info()
+        GetFiles.get_file_info()
         print("\n\n")

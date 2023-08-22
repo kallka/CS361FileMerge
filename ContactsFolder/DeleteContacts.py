@@ -8,7 +8,7 @@
 # --------- IMPORTS  -------- #
 # --------------------------- #
 from playwright.sync_api import sync_playwright
-from FileMergeProject.ContactsFiles.SeeContacts import see_contacts
+from ContactsFolder.SeeContacts import see_contacts
 
 
 # --------------------------- #

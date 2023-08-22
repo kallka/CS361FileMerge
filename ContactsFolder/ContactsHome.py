@@ -10,10 +10,10 @@
 # --------------------------- #
 # --------- IMPORTS  -------- #
 # --------------------------- #
-import FileMergeProject.ContactsFiles.AddContacts
-import FileMergeProject.ContactsFiles.SeeContacts
-import FileMergeProject.ContactsFiles.DeleteContacts
-import FileMergeProject.Messages.MessagesError
+import AddContacts
+import ContactsFolder.SeeContacts as SeeContacts
+import DeleteContacts
+from ..MessagesFolder import MessagesError
 
 
 # --------------------------- #
@@ -28,17 +28,17 @@ return to Contacts Home.
 
 def add_contacts():
     # Add a contact using ContactMicro
-    FileMergeProject.ContactsFiles.AddContacts.enter_contact()
+    AddContacts.enter_contact()
 
 
 def see_contacts():
     # See all contacts using ContactMicro
-    FileMergeProject.ContactsFiles.SeeContacts.see_contacts()
+    SeeContacts.see_contacts()
 
 
 def delete_contacts():
     # Delete a contact using ContactMicro
-    FileMergeProject.ContactsFiles.DeleteContacts.delete_contacts()
+    DeleteContacts.delete_contacts()
     return
 
 
@@ -47,7 +47,7 @@ def back_to_home(num):
     if num == 2:
         home_choice()
     else:
-        FileMergeProject.Messages.MessagesError.general_error()
+        MessagesError.general_error()
         print("We are sending you back to contacts home.")
         home_choice()
 

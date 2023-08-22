@@ -9,8 +9,8 @@
 # --------------------------- #
 # --------- IMPORTS  -------- #
 # --------------------------- #
-import FileMergeProject.ContactsHome
-import FileMergeProject.MergeHome
+import ContactsFolder.ContactsHome
+import FileMergeFolder.MergeHome
 
 
 # --------------------------- #
@@ -77,11 +77,11 @@ while True and count < 3:
 
     # selected 1 and wants to edit emails
     if input_num == 1:
-        FileMergeProject.ContactsHome.home_choice()
+        FileMergeFolder.ContactsHome.home_choice()
         
     # selected 2 and wants to merge files1
     elif input_num == 2:
-        FileMergeProject.MergeHome.home_choice()
+        FileMergeFolder.MergeHome.home_choice()
 
     # Exit program
     elif input_num == 3:

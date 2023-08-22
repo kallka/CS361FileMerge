@@ -1,1 +1,0 @@
-# Is there a way to easily start a program?
