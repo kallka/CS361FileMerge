@@ -1,6 +1,6 @@
 # Name: Karina Kallas
 # Class: CS361
-# Last Edited: March 9, 2023
+# Last Edited: Aug 22, 2023
 # File Name: Home UI
 # Description: Add a contact using microservice ContactsMicro.
 

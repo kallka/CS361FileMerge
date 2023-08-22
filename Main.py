@@ -1,6 +1,6 @@
 # Name: Karina Kallas
 # Class: CS361
-# Last Edited: March 13, 2023
+# Last Edited: Aug 22, 2023
 # File Name: Home UI
 # Description: The UI for the main message. Allows for welcome message, requests input number to move
 #               to next screen, and allows for exit.
